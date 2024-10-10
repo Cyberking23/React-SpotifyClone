@@ -1,5 +1,6 @@
 import React from 'react'
 import SideBar from './components/SideBar'
+import Player from './components/Player'
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <div className="h-[90%] flex">
         <SideBar/>
       </div>
+      <Player/>
     </div>
   )
 }
